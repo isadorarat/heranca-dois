@@ -1,0 +1,21 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Cobra_1 = require("./model/Cobra");
+const Livro_1 = require("./model/Livro");
+const c1 = new Cobra_1.Cobra(`Bifurcada`, `Mussurana`, `Branco`);
+console.log(c1);
+c1.setLingua(`Bifurcada`);
+c1.setEspecie(`Mussurana`);
+c1.setCor(`Branco`);
+console.log(c1.getLingua());
+console.log(c1.getEspecie());
+console.log(c1.getCor());
+const l1 = new Livro_1.Livro(`Darkside Books`, `Quadrado`, `Amarelo`);
+console.log(l1);
+l1.setEditora(`Darkside Books`);
+l1.setFormato(`Quadrado`);
+l1.setCor(`Amarelo`);
+console.log(l1.getEditora());
+console.log(l1.getFormato());
+console.log(l1.getCor());
+//# sourceMappingURL=index.js.map
